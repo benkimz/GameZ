@@ -48,13 +48,13 @@ pauseButton.addEventListener("click", () => {
 
 moveLeftButton.addEventListener("click", () => {
   if (gameState === "play" && car.x > 0) {
-    car.x -= car.speed;
+    car.x -= car.speed * 5;
   }
 });
 
 moveRightButton.addEventListener("click", () => {
   if (gameState === "play" && car.x < canvas.width - car.width) {
-    car.x += car.speed;
+    car.x += car.speed * 5;
   }
 });
 
@@ -86,7 +86,7 @@ function draw() {
 // Update the game state on each frame
 function update() {
   // Move the enemy down the screen
-  enemy.y += enemy.speed;
+  enemy.y += enemy.speed * 4;
 
   // Check for collision between the car and the enemy
   if (
