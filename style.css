@@ -1,0 +1,95 @@
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the background color of the page */
+  body {
+    background-color: #2b2b2b;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+  }
+  /* Set the size and position of the canvas */
+  #game-canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+  }
+  
+  /* Style the buttons */
+  button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  /* Change the background color of the buttons on hover */
+  button:hover {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  /* Style the container for the heading and introduction */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Style the heading */
+  h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  /* Style the introduction */
+  .intro {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 50px;
+  }
+  
+  /* Style the button container */
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style the footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 14px;
+  }
+  
